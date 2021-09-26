@@ -20,7 +20,7 @@ a) Click the app script editor and a new script file should be automatically gen
 
 <img width="300" alt="Screen Shot 2021-09-25 at 4 17 02 PM" src="https://user-images.githubusercontent.com/31105362/134788221-899ae970-9eca-4768-bbd8-cef28a8f3e4a.png"><img width="600" alt="Screen Shot 2021-09-25 at 4 18 51 PM" src="https://user-images.githubusercontent.com/31105362/134788248-58479618-65cb-4ee6-8cbe-8b836bed0518.png">
 
-b) Rename the file to "out-of-office-script" and delete the generated contents. Paste in all the contents from script.gs and save.
+b) Rename the file to "out-of-office-script" and delete the generated contents. Paste in all the contents from out-of-office-script.gs and save.
 
 ### 4. Install triggers to make Notify function work
 Install a form trigger to run the notify function when someone submits a request. Click on the triggers category on the left and then click add trigger on the bottom right. Create a trigger to run the notify function on a new form submit.
