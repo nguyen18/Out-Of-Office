@@ -11,7 +11,7 @@ Create a google form with questions you would like to know when someone submits 
 When asking for their leave dates, make sure to use the date question feature in forms. If not, you have to convert it to a date time format in the script itself.
 
 ### 2. Link and format a spreadsheet you want to store pending and archived requests
-You can use the automatic generated one with the forms or link a google spreadsheet you personally created. After linking the spreadsheet sheet to the form, create a new tab/sheet on the bottom called "Archive" where you will store processed requests. Optional: Rename the linked tab with the purple icon as "Pending". Add a column after your question columns called "Approved" where the approver 
+You can use the automatic generated one with the forms or link a google spreadsheet you personally created. After linking the spreadsheet sheet to the form, create a new tab/sheet on the bottom called "Archive" where you will store processed requests. Optional: Rename the linked tab with the purple icon as "Pending". Add a column after your question columns called "Approved" where the approver will process requests
 
 <img width="1412" alt="Screen Shot 2021-09-25 at 4 13 37 PM" src="https://user-images.githubusercontent.com/31105362/134788156-6fc2bf47-0631-4973-ab45-5ffb6ca3c07a.png">
 
