@@ -79,11 +79,19 @@ function scheduleEvent() {
       targetSheet.appendRow([timeSubmitted, email, startDate, endDate, exempt, type, cover, details, approved]);
 
       //  add event to calendar and let requester know through a calendar invite
-      let event = eventCal.createAllDayEvent(email + ' Out of Office', new Date(startDate), new Date(endDate), {
-        description: "email: " + email + "\nexempt: " + exempt + "\ntype: " + type + "\ncover: " + cover + "\ndetails: " + details,
-        guests: email,
-        sendInvites: true,
-      });
+      if (startDate.toString() == endDate.toString()) {
+        event = eventCal.createAllDayEvent(email + ' Out of Office', startDate, {
+          description: "email: " + email + "\nexempt: " + exempt + "\ntype: " + type + "\ncover: " + cover + "\ndetails: " + details,
+          guests: email,
+          sendInvites: true,
+        });
+      } else {
+        event = eventCal.createAllDayEvent(email + ' Out of Office', startDate, endDate, {
+          description: "email: " + email + "\nexempt: " + exempt + "\ntype: " + type + "\ncover: " + cover + "\ndetails: " + details,
+          guests: email,
+          sendInvites: true,
+        });
+      }
 
       //  notify requester leave request was approved through email
       MailApp.sendEmail({
