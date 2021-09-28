@@ -21,6 +21,7 @@ a) Click the app script editor and a new script file should be automatically gen
 <img width="300" alt="Screen Shot 2021-09-25 at 4 17 02 PM" src="https://user-images.githubusercontent.com/31105362/134788221-899ae970-9eca-4768-bbd8-cef28a8f3e4a.png"><img width="600" alt="Screen Shot 2021-09-25 at 4 18 51 PM" src="https://user-images.githubusercontent.com/31105362/134788248-58479618-65cb-4ee6-8cbe-8b836bed0518.png">
 
 b) Rename the file to "out-of-office-script" and delete the generated contents. Paste in all the contents from out-of-office-script.gs
+
 c) Adjust the customizable information to your liking (email bodies, variable and data changes, calendar IDs, etc.) - some areas are labeled for you and are required for you to change them in order for it to work.
 
 d) Save!
